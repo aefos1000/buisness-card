@@ -1,0 +1,94 @@
+body{
+    background-color:rgba(132, 147, 121, 0.5)
+}
+
+.front-card{
+    width:350px;
+    height: 612px;
+    /* what centers the card */
+    margin: 0 auto;
+    background-color:rgb(241, 230, 216);
+    /* how far apart the cards are */
+    margin-bottom: 70px;
+    background-image: url("assets/artboard1.png");
+    box-shadow: 2px 5px 15px 0px #17161694;
+}
+
+.front-card h1{
+    position: relative;
+    padding: 70px;
+    margin-left: 20px;
+}
+
+
+.back-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:rgb(241, 230, 216);
+    background-image: url("assets/artboard2.png");
+    box-shadow: 2px 5px 15px 0px #17161694;
+}
+
+.back-card h1 {
+    font-size: 24px;
+    position: relative;
+    padding: 80px;
+    margin-left: 70px;
+}
+
+.back-card h2 {
+    font-size: 20px;
+    position: relative;
+    padding: 0px 10px;
+    margin-left: 50px;
+}
+
+
+
+
+/*.icon{
+    display:grid;
+    margin: 0px 0px;
+    grid-gap:25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+     /*grid-template-areas: 
+    "a b c";
+    /*border: 8px solid blue;
+  }
+*/
+
+  .icon{
+    display: flex;
+    margin: 0px 70px;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+
+  .icon a img{
+    height: 60px;
+    width: 60px;
+    padding: 20px 15px;
+
+  }
+    h1{
+        font-family: 'Bodoni Moda', serif;
+    }
+
+
+    h2{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    h4{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    .github a{
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-decoration: none;
+        position: relative;
+        padding: 20px;
+        margin-left: 80px;
+    }
